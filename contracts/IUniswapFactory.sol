@@ -15,4 +15,6 @@ interface IUniswapV2Factory {
 
     function setFeeTo(address) external;
     function setFeeToSetter(address) external;
+    function setWETH(address _weth) external;
+    function WETH() external view returns (address);
 }
